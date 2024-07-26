@@ -1,0 +1,133 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@300;500&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6); /* Adding a semi-transparent overlay */
+    text-align: center;
+    padding: 150px 20px;
+    position: relative;
+}
+
+header .header-content {
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #ff7e5f;
+}
+
+main {
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Adding slight opacity to main background */
+    color: #333;
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff7e5f;
+}
+
+#founders .founder {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+#founders .founder img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #555;
+}
